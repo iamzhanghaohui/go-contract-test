@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "store or retrieve variable value",
+			"kind": "dev",
+			"methods": {},
+			"title": "Storage",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Storage.sol": "Storage"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Storage.sol": {
+			"keccak256": "0x10087a535d875975ba5a3444a5344cdb9c1dc1001fb810fe27dca911d7d3d865",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://55d024eef71900a2f463542f71ad9a98f1b50014b5d0e6c2c50b0dfc88b25e0e",
+				"dweb:/ipfs/QmYgEKF4Y6AGnX8oumDsPZURMRhi9tsqS2FBYEgY5Ko6wc"
+			]
+		}
+	},
+	"version": 1
+}
