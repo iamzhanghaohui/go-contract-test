@@ -43,7 +43,7 @@ abi获取方法，在remix那复制
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/66519e7bdb3f4cd2b6eaa1a25f44f3f7.png)
 然后在命令行
 ```cmd
-abigen --abi Storage.abi --pkg main --type Storage --out Storage.go --bin Storage.bin
+abigen --abi Storage.abi --pkg main --type Storage --out Storage.go 
 ```
 这个时候就会生成一个go文件，这里面的参数自己看看就知道啥意思了不解释了。
 然后用goland打开这个文件夹
